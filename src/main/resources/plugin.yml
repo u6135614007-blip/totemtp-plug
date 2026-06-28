@@ -1,7 +1,6 @@
 name: TotemTP
 version: '1.0.0'
 main: com.totemtp.plugin.TotemTPPlugin
-api-version: '1.21'
 author: Claude
 description: "Compte les totems d'undying poppes par joueur et teleporte un joueur choisi au 3eme totem."
 
