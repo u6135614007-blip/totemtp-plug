@@ -1,3 +1,19 @@
 name: TotemTP
-version: 1.0.0
+version: '1.0.0'
 main: com.totemtp.plugin.TotemTPPlugin
+author: Claude
+description: "Compte les totems d'undying poppes par joueur et teleporte un joueur choisi au 3eme totem."
+
+commands:
+  totemtp:
+    description: "Commande principale du plugin TotemTP"
+    usage: "/totemtp <setdest|settarget|info|list|reset|remove|reload>"
+    permission: totemtp.use
+
+permissions:
+  totemtp.use:
+    description: "Permet d'utiliser /totemtp (info, list)"
+    default: true
+  totemtp.admin:
+    description: "Permet de configurer les stations TotemTP (setdest, settarget, reset, remove, reload)"
+    default: op
